@@ -24,4 +24,5 @@ Enable outputs for channels A, B, C
 --------
 
 uint16_t chBits = (UPDATE_SEL | CH_A_EN | CH_B_EN | CH_C_EN);
+
 E_DAC_STATUS dacStatus = DAC128S085_SetChannelOutputs(chBits);

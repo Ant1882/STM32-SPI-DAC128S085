@@ -3,10 +3,10 @@
 Driver for TI 8-Channel 12-bit DAC (DAC128S085)
   - Assumes power-on default of WRM mode (register write doesn't enable output)
   - Assumes SPI setup using STM32CubeMX:
-  - Motorola, 16-bits, MSB first
-  - Clock Polarity (CPOL) - Low
-  - Clock Phase (CPHA) - 1 Edge
-  - NSS Mode (Chip Select) - Enabled, Signal Type - Hardware
+    - Motorola, 16-bits, MSB first
+    - Clock Polarity (CPOL) - Low
+    - Clock Phase (CPHA) - 1 Edge
+    - NSS Mode (Chip Select) - Enabled, Signal Type - Hardware
 
 -------- Example usage --------
 
